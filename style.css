@@ -9,10 +9,6 @@
     height: 100px;
 }
 
-.foto-dev img {
-    height: 100px;
-}
-
 .main-header {
     position: fixed;
     width: 100%;
@@ -98,18 +94,23 @@ footer {
         margin: 10px 0;
     }
 
+    .imagem-fundo img {
+        max-width: 1000%;
+        max-height: 400px;
+    }
+
     article {
         font-size: 25px;
     }
 
     p {
-        font-size: 30px;
-        margin-left: 20px;
+        font-size: 20px;
+        margin-left: 14px;
     }
 
     .contato-site, footer {
         font-size: 27px;
-        margin-left: 20px;
+        margin-left: 20px;        
     }
     
 }
