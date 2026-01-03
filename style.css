@@ -40,15 +40,14 @@ header {
 }
 
 .imagem-fundo img {
-    position: relative;
+    position: static;
     top: 0;
     left: 0;
-    max-width: 3000px;
-    max-height: 900px;
-    width: auto;
-    height: auto;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
     object-fit: cover;
-    z-index: -1;    
+    z-index: -1;
+    display: flex;
 }
 
 article {
@@ -82,7 +81,7 @@ footer {
     text-decoration: none; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .main-header {
         flex-direction: initial;
         height: 120px;
@@ -95,8 +94,7 @@ footer {
     }
 
     .imagem-fundo img {
-        max-width: 1000%;
-        max-height: 400px;
+        display: block;        
     }
 
     article {
@@ -104,13 +102,13 @@ footer {
     }
 
     p {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 14px;
     }
 
     .contato-site, footer {
-        font-size: 27px;
-        margin-left: 20px;        
+        font-size: 22px;
+        margin-left: 15px;        
     }
     
 }
