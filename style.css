@@ -65,11 +65,15 @@ p {
 }
 
 .contato-site {
-    display: inline-flex;
-    position: static;    
+    display: flex;
+    position: relative;    
     margin-left: 25px;
     font-size: 25px;
-    text-decoration: none;      
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    gap: 10px;
 }
 
 footer {
@@ -78,8 +82,9 @@ footer {
     top: 60px;
     margin-left: 25px;
     font-size: 25px;
-    text-decoration: none; 
+    text-decoration: none;    
 }
+
 
 @media screen and (max-width: 900px) {
     .main-header {
