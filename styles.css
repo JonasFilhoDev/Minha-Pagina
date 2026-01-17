@@ -94,7 +94,7 @@ header {
     }
 
     header a {
-        font-size: 20px;
+        font-size: 15px;
         margin: 10px 0;
     }
 
@@ -109,10 +109,5 @@ header {
     .container-projetos {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         margin-top: 20px;    
-    }
-
-    .contato-site, footer {
-        font-size: 22px;
-        margin-left: 15px;        
-    }    
+    } 
 }
