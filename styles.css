@@ -85,3 +85,34 @@ header {
 .card-info {
   padding: 15px;
 }
+
+@media screen and (max-width: 900px) {
+    .main-header {
+        flex-direction: initial;
+        height: 120px;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .imagem-fundo img {
+        display: block;        
+    }
+
+    article {
+        font-size: 25px;
+    }
+
+    .container-projetos {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        margin-top: 20px;    
+    }
+
+    .contato-site, footer {
+        font-size: 22px;
+        margin-left: 15px;        
+    }    
+}
